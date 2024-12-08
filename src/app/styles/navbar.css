@@ -1,0 +1,35 @@
+/* /src/styles/navbar.css */
+.topline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1438px;
+    height: 58px;
+    background-color: #252B42;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1437px;
+    margin: 0 auto;
+    padding: 0 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #252B42;
+  }
+  
+  .navbar .links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar .user-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
